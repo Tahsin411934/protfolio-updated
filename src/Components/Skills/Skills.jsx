@@ -13,7 +13,10 @@ import { Autoplay, Navigation, Pagination } from 'swiper/modules';
 const Skills = () => {
 
     return (
-        <div>
+        <div className='py-10'>
+             <div className="text-3xl font-bold flex items-center justify-center p-2">
+                <h1 className="">My Skills</h1>
+            </div>
 
             <Swiper
                 slidesPerView={5}
