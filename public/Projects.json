@@ -1,0 +1,35 @@
+[
+    {
+      "projectName": "PlateSwap",
+      "image": "plateswap.png",
+      "details": "A dashboard for analyzing social media trends and engagement metrics. Includes real-time data visualization and user-friendly interface.",
+      "liveLink": "https://socialanalytics.example.com",
+      "clientSite": "https://clientwebsite.example.com",
+      "serverSiteLink": "https://backend.example.com"
+    },
+    {
+      "projectName": "FITFOCUS",
+      "image": "FITFOCUS.png",
+      "details": "Platform for delivering courses with video lectures, quizzes, and student progress tracking. Supports multiple instructors and course categories.",
+      "liveLink": "https://assignment-12af.netlify.app/",
+      "clientSite": "https://clientportal.example.com",
+      "serverSiteLink": "https://backend.example.com"
+    },
+    {
+      "projectName": "ShareTrip",
+      "image": "shareTrip.png",
+      "details": "Redesign of an existing ecommerce site to improve user experience and increase sales. Features include enhanced product search and streamlined checkout process.",
+      "liveLink": "https://sharetrip-af.netlify.app/",
+      "clientSite": "https://clientsite.example.com",
+      "serverSiteLink": "https://backend.example.com"
+    },
+    {
+        "projectName": "LexVillas",
+        "image": "LexVillas.png",
+        "details": "Redesign of an existing ecommerce site to improve user experience and increase sales. Features include enhanced product search and streamlined checkout process.",
+        "liveLink": "https://af-assignment-9.netlify.app/",
+        "clientSite": "https://clientsite.example.com",
+        "serverSiteLink": "https://backend.example.com"
+      }
+  ]
+  
