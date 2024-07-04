@@ -16,6 +16,8 @@ import {
 import Services from './Components/Services/Services.jsx';
 import Projects from './Components/Projects/Projects.jsx';
 import Contract from './Components/Contract/Contract.jsx';
+import Skills from './Components/Skills/Skills.jsx';
+import Education from './Components/Education/Education.jsx';
 
 const queryClient = new QueryClient();
 
@@ -39,6 +41,14 @@ const router = createBrowserRouter([
       {
         path: "/contract",
         element: <Contract></Contract> 
+      },
+      {
+        path: "/skills",
+        element: <Skills></Skills>
+      },
+      {
+        path: "/education",
+        element: <Education></Education>
       },
     ]
   },

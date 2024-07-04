@@ -39,14 +39,18 @@ const Banner = () => {
             Passionate MERN Stack Developer crafting seamless web solutions for enhanced user experiences and scalability.
           </h1>
           <div  className={`${theme === 'light' ? 'bg-blue-100 text-[#155E75]' : 'bg-[#081927] text-[#61dafb]'} flex items-center gap-4 py-4`}>
-            <PiFacebookLogoBold size={30} />
-            <TiSocialLinkedinCircular size={36} />
-            <TiSocialGithubCircular size={36} />
-            <TiSocialTwitterCircular size={36} />
+            <a href="https://www.facebook.com/tazin.tanim.7/"><PiFacebookLogoBold size={30} /></a>
+            <a href="https://www.linkedin.com/in/abrar-fahim-af/"> <TiSocialLinkedinCircular size={36} /></a>
+            <a href="https://github.com/Tahsin411934"><TiSocialGithubCircular size={36} /></a>
+            <a href=""><TiSocialTwitterCircular size={36} /></a>
+            
+           
+            
+            
           </div>
-          <Button className="font-semibold">Download CV</Button>
+          <Button className="font-semibold"><a href="https://drive.google.com/file/d/1XE_1jJgCyJhco5DjRAScXwxv4Qn67tuq/view?usp=sharing">Download CV</a></Button>
         </div>
-        <div className="w-[80%] mx-auto">
+        <div data-aos="fade-left" className="w-[80%] mx-auto">
           <img key={theme} width={400} height={400} className="bg-none rounded-full" src={bgImage} alt="" />
         </div>
       </div>

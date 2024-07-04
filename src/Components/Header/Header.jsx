@@ -1,4 +1,3 @@
-import React from 'react';
 import { Button, Navbar } from 'flowbite-react';
 import useTheme from '../../Hook/useTheme';
 import { Link, NavLink } from 'react-router-dom';
@@ -26,10 +25,12 @@ const Header = () => {
         </div>
         <Navbar.Collapse className="text-xl">
           <NavLink to="/" exact activeClassName="active-link">Home</NavLink>
-         
+          <NavLink to="/skills" activeClassName="active-link">Skills</NavLink>
           <NavLink to="/services" activeClassName="active-link">Services</NavLink>
           <NavLink to="/projects" activeClassName="active-link">Projects</NavLink>
-          <NavLink to="#pricing" activeClassName="active-link">Pricing</NavLink>
+          <NavLink to="/education" activeClassName="active-link">Education</NavLink>
+          {/* <NavLink to="/education" activeClassName="active-link">Blog</NavLink> */}
+          
         </Navbar.Collapse>
       </Navbar>
     </div>

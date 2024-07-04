@@ -1,4 +1,4 @@
-import React from 'react';
+
 import './Skills.css'
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -6,7 +6,6 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';
-import react from '../../../public/react.png'
 import { Autoplay, Navigation, Pagination } from 'swiper/modules';
 
 
@@ -23,7 +22,7 @@ const Skills = () => {
                 spaceBetween={3}
                 centeredSlides={true}
                 autoplay={{
-                    delay: 6500,
+                    delay: 2500,
                     disableOnInteraction: false,
                 }}
                 pagination={{
