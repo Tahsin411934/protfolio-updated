@@ -4,7 +4,7 @@ const Service = ({ service }) => {
     return (
         <div data-aos="fade-right" className='font-inter pb-5'>
             <div >
-                <div  className="border hover:scale-95 transition-transform duration-300 ease-in-out border-blue-200 rounded-lg p-10 shadow-md text-center h-[400px]">
+                <div  className="border hover:scale-95 transition-transform duration-300 ease-in-out border-blue-200 rounded-lg p-10 shadow-md text-center h-full">
                     <div className='flex justify-center items-center'>
                         <img width={80} height={80} src={service.image} alt="" />
                     </div>

@@ -12,14 +12,20 @@ import { Autoplay, Navigation, Pagination } from 'swiper/modules';
 const Skills = () => {
 
     return (
-        <div className='py-10'>
-             <div className="text-3xl font-bold flex items-center justify-center p-2">
+        <div className='pt-10'>
+             <div className="text-3xl font-bold flex items-center justify-center ">
                 <h1 className="">My Skills</h1>
             </div>
 
             <Swiper
-                slidesPerView={5}
-                spaceBetween={3}
+                slidesPerView={2} // Default for smaller screens
+                spaceBetween={10} // Default for smaller screens
+                breakpoints={{
+                    640: { slidesPerView: 3, spaceBetween: 10 },
+                    768: { slidesPerView: 3, spaceBetween: 30 },
+                    1024: { slidesPerView: 4, spaceBetween: 40 },
+                    1280: { slidesPerView: 5, spaceBetween: 50 },
+                }}
                 centeredSlides={true}
                 autoplay={{
                     delay: 2500,
@@ -34,7 +40,7 @@ const Skills = () => {
             >
 
                 <SwiperSlide>
-                    <div className="flex justify-center items-center mt-20 ">
+                    <div className="flex mb-10 justify-center items-center mt-16 ">
                         <div className="flex justify-center items-center mt-20">
                             <div
                                 className="bg-gradient-to-t from-[#2162AF] to-[#081927] relative w-48 h-48 rounded-2xl shadow-md m-4 overflow-hidden animate-updown"

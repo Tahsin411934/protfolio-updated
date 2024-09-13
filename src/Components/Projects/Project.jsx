@@ -9,10 +9,10 @@ const Project = ({ project }) => {
                 <div>
                     <img src={project.image} alt="" className="object-cover hover:scale-95 transition-transform duration-300 ease-in-out w-full mb-4 h-60 sm:h-96 " />
                     <h2 className="mb-1 text-xl font-semibold">{project.projectName}</h2>
-                    <p className="text-sm dark:text-gray-600">Eu qualisque aliquando mel, id lorem detraxit nec, ad elit minimum pri. Illum ipsum detracto ne cum. Mundi nemore te ius, vim ad illud atqui apeirian...</p>
+                    <p className="text-sm dark:text-gray-600">{project.details}</p>
                 </div>
                 <div className="w-[40%] mx-auto lg:grid grid-cols-3 text-[#4AA9C5] ">
-                <a className="underline hover:text-[#4a4080]" href={project.liveLink}> Live  </a>
+                <a  className="underline hover:text-[#4a4080]" href={project.liveLink}> Live  </a>
                 <a className="underline hover:text-[#4a4080]" href={project.clientSite}> Client</a>
                 <a className="underline hover:text-[#4a4080]" href={project.serverSiteLink}> Server</a>
                 </div>

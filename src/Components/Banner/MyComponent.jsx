@@ -6,7 +6,7 @@ const MyComponent = ({ text }) => {
     const {theme} = useTheme()
   return (
     <div className="App">
-      <span className='text-2xl font-bold' style={{ paddingTop: '', margin: 'auto 0',  }}>
+      <span className='lg:text-2xl text-[22px] font-bold' style={{ paddingTop: '', margin: 'auto 0',  }}>
         {text}{' '}
         <span className={`${theme === 'light' ? 'bg-blue-100 text-yellow-500' : 'bg-[#081927] text-yellow-500'} m-0 p-0 h-screen`} style={{ color: '', fontWeight: 'bold' }}>
           <Typewriter
@@ -14,7 +14,7 @@ const MyComponent = ({ text }) => {
             loop={100}
             cursor
             cursorStyle="|"
-            typeSpeed={70}
+            typeSpeed={50}
             deleteSpeed={50}
             delaySpeed={1000}
           />

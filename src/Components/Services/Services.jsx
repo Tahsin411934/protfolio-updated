@@ -19,7 +19,7 @@ const Services = () => {
             <div className="text-3xl font-bold flex items-center justify-center p-10">
                 <h1 className="">My Services</h1>
             </div>
-            <div className="w-[85%] mx-auto lg:grid grid-cols-3  gap-5">
+            <div className="w-[85%] mx-auto lg:grid grid-cols-3 items-center gap-5">
             {
                 data?.map(service=><Service key={service.title} service={service}></Service>)
             }
